@@ -1,6 +1,6 @@
 name: Create Azure Resources
 on: 
-    workflow_dispatch: # Putting here is also fine!!
+    workflow_dispatch: # Trigger to mannualy invoke P a workflow run
     push:
         paths: 
         - 'ARM/**'
