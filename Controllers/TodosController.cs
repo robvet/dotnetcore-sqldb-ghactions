@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using DotNetCoreSqlDb.Models;
 
 // Test Comment
+// Another Test Comment
 
 namespace DotNetCoreSqlDb.Controllers
 {
