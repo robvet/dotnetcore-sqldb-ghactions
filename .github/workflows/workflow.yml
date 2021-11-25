@@ -60,6 +60,7 @@ jobs:
           CONN_STR=$(echo $CONN_STR | sed "s/<username>/${{ env.SQLADMIN_LOGIN }}/g")
           CONN_STR=$(echo $CONN_STR | sed "s/<password>/${{ env.SQLADMIN_PASS }}/g")
           echo "SQL_DB_CONN_STR=$CONN_STR" >> $GITHUB_ENV
+          echo "{{} env.SQL_DB_CONN_STR }}"  #Output connection string
 
       - name: Update Database
         run: |
