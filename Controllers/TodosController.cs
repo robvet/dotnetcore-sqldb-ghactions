@@ -9,6 +9,7 @@ using DotNetCoreSqlDb.Models;
 
 // Test Comment
 // Another Test Comment
+// Test comment 3
 
 namespace DotNetCoreSqlDb.Controllers
 {
